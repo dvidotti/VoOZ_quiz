@@ -1,0 +1,210 @@
+/* ////////MOBILE//////////////// */
+
+
+.your-voice-full-page{
+  background-color: black;
+}
+
+.your-voice-black{
+  padding:5%;
+  height: 100vh;
+  width: 100%;
+}
+
+.full-page-black-scroll {
+  width: 100vw;
+  height: 100%;
+  margin: auto;
+  background-color: black;
+}
+
+
+
+.title-lesson{
+  font-size: 2em;
+  font-weight:100;
+  text-align:center;
+  margin: auto;
+  color:white;
+  padding-top: 12%;
+  }
+
+
+  
+.subtitle-lesson{
+  font-size: 1.2em;
+  font-weight:100;
+  text-align:center;
+  margin: auto;
+}
+
+.user-value {
+  color: white;
+  font-weight: 100;
+  font-size: 3em;
+  padding:2% 7%;
+  border: 1px solid white;
+  margin-left:7%;
+  margin-right:7%;
+}
+
+.user-value-border {
+  color:black;
+  background-color: #DDDBDB;
+  font-weight: 100;
+  font-size: 1.3em;
+  padding:2% 7%;
+  border: 1px solid #DDDBDB;
+  margin-left:7%;
+  margin-right:7%;
+  text-align: center;
+
+}
+
+.user-lesson {
+  color: white;
+  font-weight: 100;
+  font-size: 1.3em;
+  padding:3% 14%;
+  text-align:center;
+  line-height: 140%;
+  margin-bottom: 5%;
+}
+
+.user-lesson-border {
+  color: white;
+  font-weight: 100;
+  font-size: 1.3em;
+  padding:2% 7%;
+  border: 1px solid white;
+  margin-left:7%;
+  margin-right:7%;
+  margin-bottom:7%;
+  text-align:center;
+}
+
+.white-logo {
+  padding:3% 7%;
+}
+
+.form-button {
+  margin: 3% 7% 15% 7%;
+  width: 30%;
+  font-size: 1.2em;
+  padding-top:3%;
+  padding-bottom:3%;
+  background-color: white;
+}
+
+.resp-container {
+  position: relative;
+  overflow: hidden;
+  text-align:center;
+  margin-bottom:4%;
+}
+
+.logo-scroll{
+  padding-bottom:5%;
+  text-align: center;  
+}
+
+.signup-link {
+  display:block;
+  margin:auto;
+}
+
+.your-voice-full-page{
+ height: 100%;
+ background-color: black
+}
+
+.your-voice-message {
+  height: 100%;
+  background-color: black;
+  margin-bottom: 6vh;
+}
+
+
+
+/* ///// DESKTOP ////// */
+
+@media (min-width: 768px){
+
+  .your-voice-message{
+    background-color: black;
+  }
+
+  .your-voice-full-page{
+    background-color: black;
+  }
+
+  .user-value {
+    color: white;
+    font-weight: 100;
+    font-size: 3em;
+    padding:2% 7%;
+    border: 1px solid white;
+    margin-left:20%;
+    margin-right:20%;
+  }
+
+  .full-page-black-scroll {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: black;
+  }
+
+  .resp-container {
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    height:40vh;
+    width:90%;
+    margin:auto;
+    margin-bottom: 3%;
+  }
+
+  .user-lesson {
+    color: white;
+    font-weight: 100;
+    font-size: 1.3em;
+    padding:5% 14%;
+    text-align:center;
+    line-height: 140%;
+    margin-bottom: 5%;
+  }
+
+  .user-lesson-border {
+    color: white;
+    font-weight: 100;
+    font-size: 1.3em;
+    padding:7% 13%;
+    border: 1px solid white;
+    margin-left:7%;
+    margin-right:7%;
+    margin-bottom:7%;
+    text-align:center;
+  }
+
+  .subtitle-lesson{
+    font-size: 1.8em;
+    font-weight:100;
+    text-align:center;
+    margin: 6% auto 0%;
+    color:white;
+    padding:5% 25%;
+  }
+
+  .scroll-course1 {
+    padding:1% 30%;
+  }
+
+  .signup-link {
+    margin: auto;
+  }
+
+  .logo-scroll {
+    padding-bottom: 1%;
+  }
+}

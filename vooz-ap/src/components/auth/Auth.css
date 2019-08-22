@@ -1,0 +1,245 @@
+/* ////// MOBILE //////// */
+
+.full-signup-page{
+  background: black;
+  color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.full-login-page{
+  background: black;
+  color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.form{  
+ padding: 0% 5%;
+ border: 1px solid black;
+ margin:auto;
+ background-color: black;
+}
+
+.form-label{
+  display:block;
+  text-align: left; 
+  width: 100%;
+  margin-top: 7%;
+  margin-left: 4%;
+  font-size: 1em;
+  padding:1%;
+}
+
+.title{
+  display:block;
+  width: 70%;
+  margin: auto;
+  font-size: 7vw;
+  padding-top: 8%;
+  font-weight: 100;
+  color:white;
+}
+
+.subtitle{
+  display:block;
+  width: 70%;
+  margin: auto;
+  font-size: 6vw;
+  padding-top:1%;
+  font-weight: 100;
+  color:white;
+}
+
+.form-input{
+  display:block;
+  border: .5px solid white;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  height: 40px;
+  font-size: 1.2em;
+  padding-top:2%;
+  background-color: black;
+  color:white;  
+}
+
+
+.form-buttom{
+  display:block;
+  border: 1px solid white;
+  width: 40%;
+  margin-top: 8%;
+  font-size: 5vw;
+  padding:3%;
+  background-color: white;
+  color:black;  
+}
+
+.line {
+  border-bottom:1px solid white;
+  width:90%;
+  margin: auto;
+  padding-bottom:7%;
+}
+
+
+.message {
+  display:block;
+  font-size:large;
+  background-color: rgb(95, 34, 34);
+  padding: .5em;
+  width: 90%;
+  margin: 5% auto 0 auto;
+}
+
+.conditional {
+  display: block;
+  background-color: black;
+  padding: 5vh;
+  font-size: 6vw;
+}
+
+.login-link {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.logo-scroll-login{
+  position: absolute;
+  bottom:0;
+}
+
+.logo-scroll, .login.block {
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: black;
+  display: block;
+  margin: auto;
+  border-top: 2px solid black;
+}
+
+.login-block{
+  padding-top: 15vh;
+  padding-bottom: 4%;
+  background-color:black;
+
+}
+
+.sign-up-link {
+  background-color: black;
+}
+
+/* ////// DESKTOP /////// */
+
+@media (min-width: 768px){
+
+
+  .full-signup-page{
+    background: black;
+    color: white;
+    width: 100%;
+    height: auto;
+  }
+  
+  .full-login-page{
+    background: black;
+    color: white;
+    width: 100%;
+    height: auto;
+  }
+
+  .form{  
+    padding: 0% 5%;
+    height: 60vh;
+    border: 1px solid black;
+    margin:auto;
+    width: 40%;
+   }
+
+   .line {
+    border-bottom:1px solid white;
+    width:40%;
+    margin: auto;
+    margin-top: 8vh;
+    padding-bottom:0%;
+  }
+
+  .title{
+    display:block;
+    width: 70%;
+    text-align: center;
+    font-size: 1.8em;
+    padding-top: 3%;
+    font-weight: 100;
+    color:white;
+  }
+
+  .subtitle{
+    display:block;
+    width: 70%;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top:1%;
+    font-weight: 100;
+    color:white;
+  }
+
+  .form-input{
+    display:block;
+    border: .5px solid white;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    height: 5vh;
+    font-size: 1.2em;
+    padding-top:2%;
+    background-color: black;
+    color:white;  
+  }
+  
+  .form-buttom{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    width: 40%;
+    height: 7vh;
+    font-size: 1em;
+    background-color: white;
+    color: black; 
+  }
+
+  .form-label{
+    display:block;
+    text-align: left; 
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 4%;
+    font-size: 1em;
+    padding:1%;
+  }
+
+  .conditional {
+    display: block;
+    background-color: black;
+    padding-top: 5vh;
+    font-size: 1.6vw;
+  }
+
+  .sign-up-link{
+    text-align: center;
+    background-color: black;
+  }
+
+  .message {
+    display:block;
+    font-size:large;
+    background-color: rgb(95, 34, 34);
+    padding: .5em;
+    width: 40%;
+    margin: auto;
+  }
+
+ 
+}

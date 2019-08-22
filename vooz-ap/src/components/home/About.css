@@ -1,0 +1,70 @@
+/* --------- DESKTOP ------------ */
+
+.about {
+    height: 100vh;
+    width:30%;
+    margin-left: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 60px;
+    color: white;
+    height: 100%;
+    font-family: Roboto;
+    padding: 4%; 
+}
+
+
+
+.about-close {
+  color: white;
+  font-size: 2em;
+}
+
+.about-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-title, .about-close{
+  padding: 2%;
+  font-size: 2em;
+}
+
+.about-description {
+  margin-top: 15%;
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+/* ------- MOBILE ------------- */
+
+@media (max-width: 768px){
+
+
+.about {
+    height: 100vh;
+    width: 80vw;
+    margin-left:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 60px;
+    color: white;
+    font-family: Roboto;
+    padding: 10%; 
+  }
+
+  .about-description {
+    margin-top: 15%;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 6vw;
+  }
+
+}

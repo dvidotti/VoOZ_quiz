@@ -1,0 +1,34 @@
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .high {
+    background-color: #060E9F;
+    background-image: url("/img/bird_tipo@2x.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+  }
+}
+
+
+/* DESKTOP */
+
+@media (min-width: 768px) {
+  .high {
+    background-color: #060E9F;
+    background-image: url("/img/back_bird@2x.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .artist-footer{
+    background-color: transparent;
+  }
+}
+
+.artist-navbar{
+  margin-top: 30%;
+}

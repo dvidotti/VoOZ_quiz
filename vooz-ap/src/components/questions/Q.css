@@ -1,0 +1,15 @@
+  .full-page-black { 
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+  }
+
+
+
+@media (min-width: 768px){
+  
+
+
+}

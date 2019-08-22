@@ -1,0 +1,91 @@
+/* ////////// DESKTOP ///////////// */
+
+@media (min-width: 768px) {
+  .low {
+    background-color: #060E9F;
+    background-image: url("/img/Mask Group 10.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+  }
+
+  .strong-voice {
+    background-color: #060E9F;
+    background-image: url("/img/vozeiraoDesktop2x.png");
+    width: 100%;
+    height: 100vh;
+    background-size:cover ;
+    background-position: center top;
+  }
+
+  .light-voice {
+    background-color: #060E9F;
+    background-image: url("/img/back_baixinho@2x.png");
+    width: 100%;
+    height: 100vh;
+    background-size:cover ;
+    background-position: center top;
+  }
+
+  .breath {
+    background-color: #060E9F;
+    background-image: url("/img/back_air_desktop2x.png");
+    width: 100%;
+    height: 100vh;
+    background-size:cover ;
+    background-position: center top;
+  }
+
+  .artist-footer{
+    background-color: transparent;
+  }
+
+
+  .artist-navbar{
+    margin-top: 40%;
+  }
+}
+
+/* ///////// MOBILE /////////// */
+
+@media (max-width: 768px) {
+  .low {
+    background-color: #060E9F;
+    background-image: url("/img/dog_tipo@2x.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+  }
+
+  .strong-voice {
+    background-color: #060E9F;
+    background-image: url("/img/back_vozeirao_mobile@2x.png");
+    width: 100%;
+    height: 100vh;
+    background-size:cover ;
+    background-position: center top;
+  }
+
+  .light-voice {
+    background-color: #060E9F;
+    background-image: url("/img/back_baixinho_mobile@2x.png");
+    width: 100%;
+    height: 100vh;
+    background-size:cover ;
+    background-position: center top;
+  }
+
+  .breath {
+    background-color: #060E9F;
+    background-image: url("/img/back_ar_mobile.png");
+    width: 100%;
+    height: 100vh;
+    background-size:cover ;
+    background-position: center top;
+  }
+}
+
+
+

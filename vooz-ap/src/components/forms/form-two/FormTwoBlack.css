@@ -1,0 +1,121 @@
+/* /////// MOBILE //////////// */
+
+
+@media (max-width: 768px) {
+  .full-page{
+    background-color: black;
+    color: white; 
+    height: 100%;
+    width: 100%;
+  }
+  
+  .answer-up-box {
+    display:flex;
+    margin:0% 5%
+  }
+  
+  .answer-bottom-box{
+    display:flex;
+    margin:0% 5%
+  }
+  
+  
+  .box-question{
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-left:5%;
+    margin-right:5%;
+    padding-top:5%; 
+    padding: 8% 2%;
+  }
+  
+  .box-question-voice{
+    font-weight: 100;
+    font-size: 1.1em;
+    margin: 5% 5% 5% 5%;
+    padding: 9% 5%;
+    border: 1px solid white; 
+    line-height: 1.5em; 
+  }
+  
+  .answer1-box{
+    border-right: 3px solid black;
+    padding: 6%;
+    font-weight: 100;
+    font-size: 1.1em;
+    border-right:none;
+    background-color:white;  
+    flex-grow: 1;
+    width:3vh;
+    color: black;
+  }
+  
+  .answer2-box{
+    border-left: 3px solid black;
+    padding:6%;
+    font-weight: 100;
+    font-size: 1.1em;
+    background-color:white;  
+    flex-grow: 1;
+    width:3vh;
+    color: black;
+  }
+
+  .full-page-black{
+    background-color: black;
+    color: white; 
+    height: 100vh;
+    width:100%;
+  }
+}
+
+
+/* /////// DESKTOP /////////// */
+
+@media (min-width: 768px) {
+  .box-question-voice{
+    font-weight: 100;
+    font-size: 1.6em;
+    margin: 0% 5% 5% 5%;
+    padding: 6% 9%;
+    border: 1px solid white; 
+    line-height: 1.5em; 
+  }
+
+  .answer1-box{
+    border-right: 3px solid black;
+    padding: 5% 7%;
+    font-weight: 100;
+    font-size: 1.5em;
+    border-right:none;
+    background-color:white;  
+    flex-grow: 1;
+    width:45%;
+    color: black;
+  }
+
+  .answer2-box{
+    border-left: 3px solid black;
+    padding:5% 7%;
+    font-weight: 100;
+    font-size: 1.5em;
+    background-color:white;  
+    flex-grow: 1;
+    width:45%;
+    color: black;
+  }
+
+  .full-page-black{
+    background-color: black;
+    color: white; 
+    height: 100vh;
+    width:100%;
+  }
+
+  .full-page{
+    background-color: black;
+    color: white; 
+    height: auto;
+    width: 50%;
+  }
+}

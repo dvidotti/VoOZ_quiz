@@ -1,0 +1,150 @@
+/* ------MOBILE ------ */
+
+  .full-page-black{
+    background-color: black;
+    color: white; 
+    margin:0;
+    width:100%;
+    height: 100%;
+  }
+
+  .text-button-form {
+    font-size:.9em;
+  }
+  
+  .answer-up-box-black,
+  .answer-bottom-box-black{
+    display:flex;
+    margin:0 auto;
+    width:90%;
+  }
+  
+  
+  .box-question-black {
+    font-weight: 100;
+    font-size: .8em;
+    margin: 8vh auto; 
+    padding-bottom:8%;
+    width:60%;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .answer1-box-black, .answer2-box-black, .answer3-box-black,  .answer4-box-black {
+    border: 0.08em solid white;
+    margin-left:0%;
+    margin-right:0%;
+    padding:4vh 0;
+    font-weight: 100;
+    font-size: 1.2em;
+    background-color:black;  
+    flex-grow: 1;
+    width:.1vh;
+    color: white;
+  }
+  
+  .answer1-box-black {
+    border-right:none;
+    border-bottom: none;
+  }
+
+  .answer2-box-black {
+    border-bottom: none;
+  }
+  .answer3-box-black {
+    border-right: none;
+  }
+  
+  
+  .footer-white{
+    margin:auto;
+    width:100%;
+    position: absolute;
+    bottom:0;
+  }
+
+  .navbar-white{
+    width:100%;
+  }
+
+
+/* //////// DESKTOP /////////////// */
+
+@media (min-width: 768px){
+  
+  .box-question-black {
+    font-weight: 100;
+    font-size: 1em;
+    margin: 13vh auto 0;
+    padding-bottom: 10vh;
+    width: 30%;
+  }
+  
+
+
+  .answer-up-box-black, .answer-bottom-box-black {
+    width: 35%;
+    font-size: 1.3em;
+  }
+  
+  .answer1-box-black, .answer2-box-black, .answer3-box-black, .answer4-box-black  {
+    border: .05em solid white;
+    margin-left:0%;
+    margin-right:0%;
+    padding-top:7%;
+    padding-bottom:7%;
+    font-weight: 100;
+    font-size: 1em;
+    background-color:black;  
+    flex-grow: 1;
+    width:.1vh;
+    color: white;
+  }
+
+  .answer1-box-black {
+    border-right:none;
+    border-bottom: none;
+  }
+  
+  .answer2-box-black {
+    border-bottom: none;
+  }
+  
+  .answer3-box-black {
+    border-right: none;
+  }
+  
+  
+  .answer1-box-black:hover{
+    background-color:white;
+    color: black;
+  }
+  
+  .answer2-box-black:hover{
+    background-color:white;
+    color: black;
+  }
+  
+  .answer3-box-black:hover{
+    background-color:white;
+    color: black;
+  }
+  
+  .answer4-box-black:hover{
+    background-color:white;
+    color: black;
+  }
+  
+  .footer-white{
+    margin:auto;
+    width:100%;
+    position: absolute;
+    bottom:3%;
+    z-index: 1;
+  }
+
+  .navbar-white{
+    width:100%;
+  }
+
+}

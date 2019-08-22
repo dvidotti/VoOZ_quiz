@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  font-family: Roboto;
+  margin: 0;
+  border-style:none;
+  border-right-style: none;
+  outline: none;
+}
+
+a{
+  color:rgb(216, 216, 236);
+}
+
+.App {
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+
+
+

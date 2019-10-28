@@ -61,16 +61,18 @@ class App extends Component {
   }
 
   fetchUser() {
-    if( this.state.loggedInUser === null ){
+    console.log('>>>>>>>>>>>>>>', this.state.loggedInUser)
+    if(this.state.loggedInUser === null) {
       this.service.loggedin()
-      .then(response =>{
+      .then(response => {
+        console.log("THEN FETCH", response)
         this.setState({
           loggedInUser: response
         }) 
       })
       .catch( err =>{
         this.setState({
-          loggedInUser:  false
+          loggedInUser: false
         }) 
       })
     }
@@ -113,8 +115,8 @@ class App extends Component {
           <ProtectedRoute path='/qlight' user={this.state.loggedInUser} userInfo={this.state} getUser={this.getTheUser} component={Course1} /> } />
           <ProtectedRoute path='/yourvoice' user={this.state.loggedInUser} userInfo={this.state} getUser={this.getTheUser} component={Course1} /> } />
           <ProtectedRoute path='/signup' user={this.state.loggedInUser} userInfo={this.state} getUser={this.getTheUser} component={Course1} /> } />
-          <ProtectedRoute path='/login' user={this.state.loggedInUser} userInfo={this.state} getUser={this.getTheUser} component={Course1} /> } />
-          <ProtectedRoute path='/course1' user={this.state.loggedInUser} userInfo={this.state} component={Course1} />
+          {/* <ProtectedRoute path='/login' user={this.state.loggedInUser} userInfo={this.state} getUser={this.getTheUser} component={Course1} /> } /> */}
+          <ProtectedRoute path='/course1' getUser={this.getTheUser} user={this.state.loggedInUser} userInfo={this.state} component={Course1} />
           <ProtectedRoute path="*" user={this.state.loggedInUser} userInfo={this.state} component={Course1} />
         </Switch>
       ) 
@@ -140,14 +142,14 @@ class App extends Component {
               <Route path='/qwishes' render={(props) => <QWishes getWishes={this.getLevel} /> }/>
               <Route path='/yourvoice' render={(props) => <YourVoice userInfo={this.state} /> } />
               <Route path='/signup' render={(props) => <SignUp userInfo={this.state} getUser={this.getTheUser} /> } />
-              <Route path='/login' render={(props) => <LogIn userInfo={this.state} getUser={this.getTheUser} /> } />
+              <Route path='/login' render={(props) => <LogIn {...props} user={this.state.loggedInUser} userInfo={this.state} getUser={this.getTheUser} /> } />
               <Route path='/ella' component={Ella} />
               <Route path='/low' component={Low} />
               <Route path='/breath' component={Breath} />
               <Route path='/high' component={High} />
               <Route path='/qstrong' component={StrongVoice} />
               <Route path='/qlight' component={LightVoice} />
-              <ProtectedRoute path='/course1' user={this.state.loggedInUser} userInfo={this.state} component={Course1} />
+              <ProtectedRoute path='/course1'  user={this.state.loggedInUser} userInfo={this.state} component={Course1} />
               <Route path="*" component={NotFound} />
             </Switch>
         </div>

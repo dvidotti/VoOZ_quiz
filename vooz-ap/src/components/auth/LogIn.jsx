@@ -23,17 +23,21 @@ class Login extends Component {
     const password = this.state.password;
     this.service.login(username, password)
     .then(response => {
-      this.setState({ username: "", password: "",  });
+      this.setState({ username: "", password: ""  });
       this.props.getUser(response)
+      this.props.history.push('/course1')
     })
     .catch(error => {
+      // this.setState({ message: error.response.data.message});
       this.setState({ message: error.response.data.message});
     }) 
   }
     
   handleChange = (event) => {  
     const {name, value} = event.target;
-    this.setState({[name]: value});
+    this.setState({
+      [name]: value
+    });
   }
     
   render(){
@@ -47,7 +51,7 @@ class Login extends Component {
           <label className='form-label'>Username:</label>
           <input className='form-input' type="text" name="username" value={this.state.username} onChange={ e => this.handleChange(e)}/>
           <label className='form-label'>Password:</label>
-          <input className='form-input' type="password" name="password" value={'*'.repeat(this.state.password.length)} onChange={ e => this.handleChange(e)} />
+          <input className='form-input' type="password" name="password" onChange={ e => this.handleChange(e)} />
           <input className='form-buttom' type="submit" value="Login" />
         </form>
         <div className="sign-up-link ">

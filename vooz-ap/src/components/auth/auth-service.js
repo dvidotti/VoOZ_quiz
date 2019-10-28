@@ -11,7 +11,11 @@ class AuthService {
 
   loggedin = () => {
     return this.service.get('/loggedin')
-    .then(response => response.data)
+    .then(response => {
+      console.log('RESPONSE LOGGEDIN', response.data)
+      return response.data;
+    })
+    .catch(response => console.log('CATCH', response))
   }
 
   signup = (username, password, level, range, intensity, air, style, record, artist, wishes, email, name ) => {
@@ -22,7 +26,10 @@ class AuthService {
 
   login = (username, password) => {
     return this.service.post('/login', {username, password})
-    .then(response => response.data)
+    .then(response => {
+      console.log(response.data)
+      return response.data;
+    })
   }
   
   logout = () => {

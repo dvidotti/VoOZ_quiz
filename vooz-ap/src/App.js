@@ -61,7 +61,6 @@ class App extends Component {
   }
 
   fetchUser() {
-    console.log('>>>>>>>>>>>>>>', this.state.loggedInUser)
     if(this.state.loggedInUser === null) {
       this.service.loggedin()
       .then(response => {

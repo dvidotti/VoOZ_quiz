@@ -114,7 +114,7 @@ class App extends Component {
           <ProtectedRoute path='/qlight' user={this.state.loggedInUser} userInfo={this.state} getUser={this.getTheUser} component={Course1} /> } />
           <ProtectedRoute path='/yourvoice' user={this.state.loggedInUser} userInfo={this.state} getUser={this.getTheUser} component={Course1} /> } />
           <ProtectedRoute path='/signup' user={this.state.loggedInUser} userInfo={this.state} getUser={this.getTheUser} component={Course1} /> } />
-          {/* <ProtectedRoute path='/login' user={this.state.loggedInUser} userInfo={this.state} getUser={this.getTheUser} component={Course1} /> } /> */}
+          <ProtectedRoute path='/login' user={this.state.loggedInUser} userInfo={this.state} getUser={this.getTheUser} component={Course1} /> } />
           <ProtectedRoute path='/course1' getUser={this.getTheUser} user={this.state.loggedInUser} userInfo={this.state} component={Course1} />
           <ProtectedRoute path="*" user={this.state.loggedInUser} userInfo={this.state} component={Course1} />
         </Switch>

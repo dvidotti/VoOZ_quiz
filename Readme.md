@@ -1,10 +1,11 @@
 # VoOZ QUIZ
 
-A tool to help VoOZ company to deliver custom courses for their singing studentes.
+## App to help VoOZ company delivering custom online courses for their singing students.
+
 
 ![mobile-version-Login](snapshots/Home.png) ![mobile-version-Galery](snapshots/Play.png) ![mobile-version-Login](snapshots/FormTwo.png) 
 ![mobile-version-Galery](snapshots/PassageOne.png) ![mobile-version-Login](snapshots/Login.png) ![mobile-version-Galery](snapshots/FormFour.png)
-![mobile-version-Login](snapshots/Login.png) ![mobile-version-Galery](snapshots/YourVoice.png)![mobile-version-Login](snapshots/Message1.png) ![mobile-version-Galery](snapshots/Message2.png)
+![mobile-version-Login](snapshots/Login.png) ![mobile-version-Galery](snapshots/YourVoice.png) ![mobile-version-Galery](snapshots/Message2.png)
 
 ## This Repository
 

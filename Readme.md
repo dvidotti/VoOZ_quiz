@@ -9,7 +9,8 @@
 
 ## This Repository
 
-###Contain two folders. 
+TWO FOLDERS.
+
 * Backend | RESTful-API built with NodeJs
 * vooz-ap | App built with React library.
 

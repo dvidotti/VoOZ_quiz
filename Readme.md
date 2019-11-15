@@ -11,7 +11,7 @@
 
 TWO FOLDERS.
 
-* Backend | RESTful-API built with NodeJs
+* Backend | API built with NodeJs
 * vooz-ap | App built with React library.
 
 

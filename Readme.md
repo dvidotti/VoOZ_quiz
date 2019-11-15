@@ -8,7 +8,7 @@ A tool to help VoOZ company to deliver custom courses for their singing studente
 
 ## This Repository
 
-- Contain two folders. 
+###Contain two folders. 
 * Backend | RESTful-API built with NodeJs
 * vooz-ap | App built with React library.
 
@@ -27,7 +27,7 @@ https://confident-mcclintock-11c16a.netlify.com - for Serverless App.
 
 MERN stack
 
-# For more info check inside each specific folder.
+## For more info check inside each specific folder.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

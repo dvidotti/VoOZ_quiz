@@ -37,6 +37,8 @@ class SignUp extends Component {
             message: ''
         });
         this.props.getUser(response)
+        // this.props.history.push('/course1')
+
     })
     .catch( error => {
       this.setState({ message: error.response.data.message});
@@ -51,7 +53,7 @@ class SignUp extends Component {
   render () {
     if (this.state.redirect) {
       return( 
-       <Redirect to='/login'/>
+       <Redirect to='/course1'/>
       )
     } else {
         return(

@@ -2,11 +2,11 @@
 
 
 
-## VoOZ Quiz App
+## VoOZ Quiz App - A Dinamic Quiz built with React.
 
-![Desktop-version-Home](/snapshots/Home.png)
 
-Dinamic Quiz built with React.
+![Desktop-version-Home](/snapshots/VoOZ_HOME.png)
+
 
 
 ### Purpose 

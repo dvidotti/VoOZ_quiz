@@ -4,7 +4,7 @@
 
 ## VoOZ Quiz App
 
-![mobile-version-Login](snapshots/Home.png)
+![Desktop-version-Home](/snapshots/Home.png)
 
 Dinamic Quiz built with React.
 
